@@ -2,11 +2,8 @@ import React from 'react';
 
 const SlotLeverIcon = ({ className }: { className?: string }) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}>
-    <circle cx="18" cy="5" r="2.5" fill="currentColor" stroke="currentColor" />
-    <line x1="18" y1="8" x2="18" y2="15" strokeWidth="2.5" />
-    <path d="M14 15h6" />
-    <rect x="3" y="8" width="11" height="14" rx="2" />
-    <rect x="5" y="11" width="7" height="6" rx="1" />
+    <circle cx="15" cy="7" r="4.5" />
+    <path d="M15 11.5v6.5a2 2 0 0 1-2 2H4" />
   </svg>
 );
 
@@ -15,9 +12,9 @@ export default function Footer() {
     <footer className="bg-white border-t border-slate-200 py-8 text-slate-500">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-          <div className="flex items-center gap-2">
-            <div className="flex h-6 w-6 items-center justify-center rounded bg-indigo-600">
-              <SlotLeverIcon className="h-4 w-4 text-amber-400" />
+          <div className="flex items-center gap-3">
+            <div className="flex h-8 w-8 items-center justify-center rounded bg-[#5A7CFF] shadow-sm">
+              <SlotLeverIcon className="h-5 w-5 text-white" />
             </div>
             <span className="text-sm font-bold tracking-tight text-slate-800 uppercase">SLOT國度</span>
           </div>
